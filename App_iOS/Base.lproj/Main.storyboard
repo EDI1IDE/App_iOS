@@ -21,18 +21,26 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HgM-uU-So8">
+                                <rect key="frame" x="100" y="54" width="214" height="283.5"/>
+                                <state key="normal" title="Kliko"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="HgM-uU-So8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="5M6-rp-Wcu"/>
+                            <constraint firstItem="j8z-96-czV" firstAttribute="top" secondItem="HgM-uU-So8" secondAttribute="bottom" constant="100" id="CUU-il-0bc"/>
                             <constraint firstItem="j8z-96-czV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ODD-RJ-660"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HgM-uU-So8" secondAttribute="trailing" constant="100" id="PkP-NN-HVi"/>
                             <constraint firstItem="j8z-96-czV" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="reD-wb-Sxq"/>
+                            <constraint firstItem="HgM-uU-So8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="vKS-N1-pgq"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="139" y="83"/>
+            <point key="canvasLocation" x="137.68115942028987" y="82.366071428571431"/>
         </scene>
     </scenes>
 </document>
