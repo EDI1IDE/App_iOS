@@ -3,16 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		8EE908C724F7D20000F9E3D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE908C624F7D20000F9E3D8 /* AppDelegate.swift */; };
 		8EE908C924F7D20000F9E3D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE908C824F7D20000F9E3D8 /* SceneDelegate.swift */; };
-		8EE908CB24F7D20000F9E3D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE908CA24F7D20000F9E3D8 /* ViewController.swift */; };
 		8EE908CE24F7D20000F9E3D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EE908CC24F7D20000F9E3D8 /* Main.storyboard */; };
 		8EE908D024F7D20100F9E3D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EE908CF24F7D20100F9E3D8 /* Assets.xcassets */; };
 		8EE908D324F7D20100F9E3D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EE908D124F7D20100F9E3D8 /* LaunchScreen.storyboard */; };
+		8EF144DF24F8F4D2003D294E /* NasaItemsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF144DE24F8F4D2003D294E /* NasaItemsController.swift */; };
+		8EF144E124F8F55F003D294E /* NasaItemDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF144E024F8F55F003D294E /* NasaItemDetailsController.swift */; };
+		8EF144E324F8F5CC003D294E /* NasaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF144E224F8F5CC003D294E /* NasaItem.swift */; };
+		8EF144E624F8F6B9003D294E /* NasaItemTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF144E424F8F6B9003D294E /* NasaItemTableCell.swift */; };
+		8EF144E724F8F6B9003D294E /* NasaItemTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EF144E524F8F6B9003D294E /* NasaItemTableCell.xib */; };
 		D38D2E9200531CBD8A96319C /* Pods_App_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C27209C64DBF5B6D9604EDA /* Pods_App_iOS.framework */; };
 /* End PBXBuildFile section */
 
@@ -22,11 +26,15 @@
 		8EE908C324F7D20000F9E3D8 /* App_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EE908C624F7D20000F9E3D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8EE908C824F7D20000F9E3D8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8EE908CA24F7D20000F9E3D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8EE908CD24F7D20000F9E3D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8EE908CF24F7D20100F9E3D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8EE908D224F7D20100F9E3D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8EE908D424F7D20100F9E3D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EF144DE24F8F4D2003D294E /* NasaItemsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaItemsController.swift; sourceTree = "<group>"; };
+		8EF144E024F8F55F003D294E /* NasaItemDetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaItemDetailsController.swift; sourceTree = "<group>"; };
+		8EF144E224F8F5CC003D294E /* NasaItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaItem.swift; sourceTree = "<group>"; };
+		8EF144E424F8F6B9003D294E /* NasaItemTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaItemTableCell.swift; sourceTree = "<group>"; };
+		8EF144E524F8F6B9003D294E /* NasaItemTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NasaItemTableCell.xib; sourceTree = "<group>"; };
 		FB5C583F03E070C161CF2E83 /* Pods-App_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App_iOS.debug.xcconfig"; path = "Target Support Files/Pods-App_iOS/Pods-App_iOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,11 +81,15 @@
 			children = (
 				8EE908C624F7D20000F9E3D8 /* AppDelegate.swift */,
 				8EE908C824F7D20000F9E3D8 /* SceneDelegate.swift */,
-				8EE908CA24F7D20000F9E3D8 /* ViewController.swift */,
+				8EF144DE24F8F4D2003D294E /* NasaItemsController.swift */,
+				8EF144E024F8F55F003D294E /* NasaItemDetailsController.swift */,
 				8EE908CC24F7D20000F9E3D8 /* Main.storyboard */,
 				8EE908CF24F7D20100F9E3D8 /* Assets.xcassets */,
 				8EE908D124F7D20100F9E3D8 /* LaunchScreen.storyboard */,
 				8EE908D424F7D20100F9E3D8 /* Info.plist */,
+				8EF144E224F8F5CC003D294E /* NasaItem.swift */,
+				8EF144E424F8F6B9003D294E /* NasaItemTableCell.swift */,
+				8EF144E524F8F6B9003D294E /* NasaItemTableCell.xib */,
 			);
 			path = App_iOS;
 			sourceTree = "<group>";
@@ -88,7 +100,6 @@
 				FB5C583F03E070C161CF2E83 /* Pods-App_iOS.debug.xcconfig */,
 				57C7F78AFA135DBDA499BACB /* Pods-App_iOS.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -152,6 +163,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EF144E724F8F6B9003D294E /* NasaItemTableCell.xib in Resources */,
 				8EE908D324F7D20100F9E3D8 /* LaunchScreen.storyboard in Resources */,
 				8EE908D024F7D20100F9E3D8 /* Assets.xcassets in Resources */,
 				8EE908CE24F7D20000F9E3D8 /* Main.storyboard in Resources */,
@@ -207,9 +219,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EE908CB24F7D20000F9E3D8 /* ViewController.swift in Sources */,
 				8EE908C724F7D20000F9E3D8 /* AppDelegate.swift in Sources */,
 				8EE908C924F7D20000F9E3D8 /* SceneDelegate.swift in Sources */,
+				8EF144E124F8F55F003D294E /* NasaItemDetailsController.swift in Sources */,
+				8EF144DF24F8F4D2003D294E /* NasaItemsController.swift in Sources */,
+				8EF144E624F8F6B9003D294E /* NasaItemTableCell.swift in Sources */,
+				8EF144E324F8F5CC003D294E /* NasaItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
