@@ -14,21 +14,17 @@ class NasaItemDetailsController: UIViewController {
     @IBOutlet weak var itemTitleLabel: UILabel!
     @IBOutlet weak var itemImageView: UIImageView!
     
+    var item: NasaItem!
+
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        setValues()
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
-}
+     func setValues() {
+        if let item = item {
+            title = item.id
+            itemTitleLabel.text = item.name
+            itemDescriptionLabel.text = item.desc
+            itemImageView.kf.setImage(with: item.getUrl())
+        }
+    }}

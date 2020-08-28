@@ -9,7 +9,11 @@
 import UIKit
 
 class NasaItemTableCell: UITableViewCell {
-
+    
+    @IBOutlet weak var ItemImageView: UIImageView!
+    @IBOutlet weak var ItemDescriptionLabel: UILabel!
+    @IBOutlet weak var ItemTitleLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

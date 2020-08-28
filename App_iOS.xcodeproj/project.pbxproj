@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8EB7B8DE24F90B91004B5023 /* RealmHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB7B8DD24F90B91004B5023 /* RealmHelper.swift */; };
 		8EE908C724F7D20000F9E3D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE908C624F7D20000F9E3D8 /* AppDelegate.swift */; };
 		8EE908C924F7D20000F9E3D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE908C824F7D20000F9E3D8 /* SceneDelegate.swift */; };
 		8EE908CE24F7D20000F9E3D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EE908CC24F7D20000F9E3D8 /* Main.storyboard */; };
@@ -23,6 +24,7 @@
 /* Begin PBXFileReference section */
 		0C27209C64DBF5B6D9604EDA /* Pods_App_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_App_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57C7F78AFA135DBDA499BACB /* Pods-App_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App_iOS.release.xcconfig"; path = "Target Support Files/Pods-App_iOS/Pods-App_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		8EB7B8DD24F90B91004B5023 /* RealmHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmHelper.swift; sourceTree = "<group>"; };
 		8EE908C324F7D20000F9E3D8 /* App_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EE908C624F7D20000F9E3D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8EE908C824F7D20000F9E3D8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				8EF144E224F8F5CC003D294E /* NasaItem.swift */,
 				8EF144E424F8F6B9003D294E /* NasaItemTableCell.swift */,
 				8EF144E524F8F6B9003D294E /* NasaItemTableCell.xib */,
+				8EB7B8DD24F90B91004B5023 /* RealmHelper.swift */,
 			);
 			path = App_iOS;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 				8EE908C924F7D20000F9E3D8 /* SceneDelegate.swift in Sources */,
 				8EF144E124F8F55F003D294E /* NasaItemDetailsController.swift in Sources */,
 				8EF144DF24F8F4D2003D294E /* NasaItemsController.swift in Sources */,
+				8EB7B8DE24F90B91004B5023 /* RealmHelper.swift in Sources */,
 				8EF144E624F8F6B9003D294E /* NasaItemTableCell.swift in Sources */,
 				8EF144E324F8F5CC003D294E /* NasaItem.swift in Sources */,
 			);
